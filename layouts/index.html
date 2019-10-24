@@ -7,6 +7,50 @@
             {{.}}
           </div>
         {{ end }}
+	<h3>Topics of interest</h3>
+	<p>
+	I'm interested in a broad range of computer graphics topics. Right now I'm fond of <b>procedural synthesis</b> on GPU (with a preference for terrains/landscapes). I also realy like <b>image processing</b> and <b>computer vision</b>. 
+	Outside of computer graphics I really lve <b>game development</b> !
+	</p>
+	<p>
+	I'm also interested in machine learning, security and a bit of network/system administration is fine ! 
+	</p>
+	<h3>My prefered programming languages:</h3>
+	<ul>
+		<li>C++</li>
+		<li>Python</li>
+		<li>C</li>
+		<li>Java</li>
+		<li>C# scripting</li>
+	</ul>
+
+	<h3>The articles below are about my most interesting projects</h3>
+
+	<!-- custom part
+	<div class="skill-list">
+		<table style="width:60%;margin-left:20%;margin-right:20%">
+			<tr>
+				<th>
+					<span style="width:100px;height:1em;border:1px solid grey;display:inline-block"><span style="display:inline-block;background-color:black;width:90px"></span></span>
+				</th>
+				<th>
+					<span style="width:100px;height:1em;border:1px solid grey;float:right"></span>
+				</th>
+				<th>
+					<span style="width:100px;height:1em;border:1px solid grey;float:right"></span>
+				</th>
+			</tr>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+		</table>
+	</div>
+
+	<div class="project-list">
+	</div>
+	 end of custom part -->
 
         <div class="posts-list">
           {{ $pag := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
